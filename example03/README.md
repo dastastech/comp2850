@@ -55,6 +55,8 @@ El widget Image en Flutter es un componente utilizado para mostrar imágenes en 
 ### Referencias
 - [Image Class](https://api.flutter.dev/flutter/widgets/Image-class.html)
 
+----
+
 #### BoxFit Property
 
 La propiedad BoxFit en Flutter es una enumeración que se utiliza para controlar cómo se ajusta una imagen dentro de su contenedor. Sirve para especificar cómo se debe escalar y recortar una imagen para que se ajuste correctamente al espacio disponible.
