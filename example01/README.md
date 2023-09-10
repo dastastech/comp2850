@@ -21,7 +21,7 @@ Los widgets en Flutter son inmutables, lo que significa que una vez que se crean
 Flutter proporciona una amplia variedad de widgets predefinidos que se pueden utilizar para construir la interfaz de usuario de una aplicación . Estos widgets van desde widgets básicos como Text y Image hasta widgets más complejos como ListView y GridView. Además, Flutter permite a los desarrolladores crear sus propios widgets personalizados para adaptarse a las necesidades específicas de su aplicación.
 
 Un widget en Flutter es una clase que describe cómo se ve y se comporta un elemento de la interfaz de usuario en una aplicación Flutter . Los widgets son los bloques de construcción fundamentales de una aplicación Flutter y se utilizan para construir la interfaz de usuario de la aplicación.
-
+---
 ## MaterialApp Class
 El widget MaterialApp es una clase predefinida en el sistema de Flutter que se utiliza para construir aplicaciones con un diseño basado en Material Design. Es un widget de conveniencia que envuelve una serie de widgets comúnmente utilizados en aplicaciones de Material Design.
 
@@ -39,7 +39,7 @@ La última versión, Material 3, permite experiencias personales, adaptables y e
 ### Referencias:
 - [Material Design from Google](https://m3.material.io)
 - [MaterialApp Widget](https://api.flutter.dev/flutter/material/MaterialApp-class.html)
-
+---
 ## Center Class
 El widget Center en Flutter es un widget que se utiliza para centrar su único hijo tanto vertical como horizontalmente en la pantalla. Proporciona una forma conveniente de alinear el contenido de una aplicación Flutter en el centro de la pantalla.
 
@@ -51,7 +51,7 @@ El widget Center en Flutter sirve para centrar su único hijo tanto vertical com
 
 ### Referencias
 - [Center Class](https://api.flutter.dev/flutter/widgets/Center-class.html)
-
+---
 ## Text Class
 El widget Text en Flutter es utilizado para mostrar texto en la interfaz de usuario de una aplicación. Sirve como un contenedor para el texto y proporciona varias propiedades para personalizar su apariencia, como el estilo de fuente, el tamaño del texto, el color y la alineación.
 
