@@ -12,6 +12,8 @@ Algunos recursos para ayudarte a comenzar si este es tu primer proyecto de Flutt
 
 Para obtener ayuda para comenzar con el desarrollo de Flutter, consulte la [documentación en línea](https://docs.flutter.dev/), que ofrece tutoriales, ejemplos, orientación sobre desarrollo móvil y una referencia API completa.
 
+----
+
 ## Scaffold Class
 
 El widget Scaffold en Flutter es un componente clave en la construcción de aplicaciones. Proporciona una estructura básica para la interfaz de usuario de la aplicación, que incluye una AppBar en la parte superior, un cuerpo (body) en el centro y opciones de navegación en la parte inferior.
@@ -28,6 +30,8 @@ El widget Scaffold en Flutter es un componente fundamental para construir la est
 
 ### Referencias
 - [Scaffold Class](https://api.flutter.dev/flutter/material/Scaffold-class.html)
+
+----
 
 ## AppBar Class
 
