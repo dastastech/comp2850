@@ -2,7 +2,7 @@
 
 Un nuevo proyecto en Flutter con la introducción del widget Scaffold.
 
-## Inicio
+## Introducción
 Este proyecto es un punto de partida para una aplicación Flutter.
 
 Algunos recursos para ayudarte a comenzar si este es tu primer proyecto de Flutter:
