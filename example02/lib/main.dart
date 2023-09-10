@@ -4,8 +4,8 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        appBar: const AppBar(
-          title: Text(
+        appBar: AppBar(
+          title: const Text(
             'My Second App',
           ),
         ),
