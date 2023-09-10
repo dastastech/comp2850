@@ -2,7 +2,7 @@
 
 Un nuevo proyecto en Flutter con la introducción del widget Scaffold.
 
-## Getting Started
+## Inicio
 Este proyecto es un punto de partida para una aplicación Flutter.
 
 Algunos recursos para ayudarte a comenzar si este es tu primer proyecto de Flutter:
@@ -12,7 +12,7 @@ Algunos recursos para ayudarte a comenzar si este es tu primer proyecto de Flutt
 
 Para obtener ayuda para comenzar con el desarrollo de Flutter, consulte la [documentación en línea](https://docs.flutter.dev/), que ofrece tutoriales, ejemplos, orientación sobre desarrollo móvil y una referencia API completa.
 
-## What's a Scaffold?
+## Scaffold Class
 
 El widget Scaffold en Flutter es un componente clave en la construcción de aplicaciones. Proporciona una estructura básica para la interfaz de usuario de la aplicación, que incluye una AppBar en la parte superior, un cuerpo (body) en el centro y opciones de navegación en la parte inferior.
 
@@ -26,7 +26,26 @@ El widget Scaffold actúa como un contenedor para otros widgets y ofrece una var
 
 El widget Scaffold en Flutter es un componente fundamental para construir la estructura de la interfaz de usuario de una aplicación. Proporciona una AppBar en la parte superior, un cuerpo en el centro y opciones de navegación en la parte inferior. Además, permite agregar características como un panel lateral (Drawer), una barra de navegación inferior (BottomNavigationBar) y un botón flotante (FloatingActionButton).
 
+### Referencias
+- [Scaffold Class](https://api.flutter.dev/flutter/material/Scaffold-class.html)
 
+## AppBar Class
+
+El widget AppBar en Flutter es un componente de interfaz de usuario que se utiliza para representar la barra de aplicaciones en la parte superior de una pantalla . Sirve como una estructura para mostrar el título de la aplicación, acciones interactivas, como botones y menús desplegables, y proporciona una forma de navegar entre diferentes pantallas.
+
+El widget AppBar es altamente personalizable y ofrece varias propiedades que permiten ajustar su apariencia y comportamiento. Algunas de las propiedades comunes incluyen:
+
+- __title__: Define el título de la barra de aplicaciones , generalmente se muestra en el centro de la barra.
+- __leading__: Muestra un widget antes del título de la barra de aplicaciones , típicamente se utiliza para mostrar un icono o un botón de retroceso.
+- __actions__: Permite agregar acciones interactivas en la parte derecha de la barra de aplicaciones , como botones de búsqueda, compartir o configuración.
+- __bottom__: Permite agregar un widget en la parte inferior de la barra de aplicaciones , como una pestaña de navegación o un indicador de progreso.
+
+El widget AppBar se utiliza comúnmente en combinación con el widget Scaffold para construir la estructura básica de una pantalla en Flutter. Proporciona una forma fácil de agregar una barra de aplicaciones con funcionalidades como navegación y acciones interactivas.
+
+El widget AppBar en Flutter es un componente de interfaz de usuario que representa la barra de aplicaciones en la parte superior de una pantalla . Se utiliza para mostrar el título de la aplicación, acciones interactivas y proporcionar navegación entre diferentes pantallas. Es altamente personalizable y se utiliza en combinación con el widget Scaffold para construir la estructura básica de una aplicación Flutter.
+
+### Referencias
+- [AppBar Class](https://api.flutter.dev/flutter/material/AppBar-class.html)
 
 
 
