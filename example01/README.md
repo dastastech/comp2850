@@ -13,13 +13,13 @@ Algunos recursos para ayudarte a comenzar si este es tu primer proyecto de Flutt
 
 Para obtener ayuda para comenzar con el desarrollo de Flutter, consulte la [documentación en línea](https://docs.flutter.dev/), que ofrece tutoriales, ejemplos, orientación sobre desarrollo móvil y una referencia API completa.
 
-## Others references:
-- [Material Design from Google](https://m3.material.io)
-
 ## What's Material?
 Material Design es un sistema de diseño creado y respaldado por diseñadores y desarrolladores de Google. Material.io incluye orientación detallada de UX e implementaciones de componentes de UI para Android, Flutter y la Web.
 
 La última versión, Material 3, permite experiencias personales, adaptables y expresivas, desde colores dinámicos y accesibilidad mejorada hasta bases para diseños de pantalla grande y tokens de diseño.
+
+## Referencias:
+- [Material Design from Google](https://m3.material.io)
 
 ## What's a Widget?
 Un widget en Flutter es una clase que describe cómo se ve y se comporta un elemento de la interfaz de usuario . Los widgets son los bloques de construcción fundamentales de una aplicación Flutter y se utilizan para construir la interfaz de usuario de la aplicación . Cada elemento en la pantalla de una aplicación Flutter, como un botón, una imagen o un texto, es un widget.
