@@ -1,27 +1,25 @@
 # PROJECT: example01
 
-A new Flutter project. A basic structure to introduce Flutter.
+Estructura básica de un proyecto en Flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Este proyecto es un punto de partida para una aplicación Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+Algunos recursos para ayudarte a comenzar si este es tu primer proyecto de Flutter:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para obtener ayuda para comenzar con el desarrollo de Flutter, consulte la [documentación en línea](https://docs.flutter.dev/), que ofrece tutoriales, ejemplos, orientación sobre desarrollo móvil y una referencia API completa.
 
 ## Others references:
 - [Material Design from Google](https://m3.material.io)
 
 ## What's Material?
-Material Design is a design system built and supported by Google designers and developers. Material.io includes in-depth UX guidance and UI component implementations for Android, Flutter, and the Web.
+Material Design es un sistema de diseño creado y respaldado por diseñadores y desarrolladores de Google. Material.io incluye orientación detallada de UX e implementaciones de componentes de UI para Android, Flutter y la Web.
 
-The latest version, Material 3, enables personal, adaptive, and expressive experiences – from dynamic color and enhanced accessibility, to foundations for large screen layouts and design tokens.
+La última versión, Material 3, permite experiencias personales, adaptables y expresivas, desde colores dinámicos y accesibilidad mejorada hasta bases para diseños de pantalla grande y tokens de diseño.
 
 ## What's a Widget?
 Un widget en Flutter es una clase que describe cómo se ve y se comporta un elemento de la interfaz de usuario . Los widgets son los bloques de construcción fundamentales de una aplicación Flutter y se utilizan para construir la interfaz de usuario de la aplicación . Cada elemento en la pantalla de una aplicación Flutter, como un botón, una imagen o un texto, es un widget.
