@@ -59,6 +59,8 @@ La propiedad Colors en Flutter es una clase predefinida que contiene una amplia 
 
 La propiedad Colors es útil porque te permite acceder fácilmente a colores predefinidos en lugar de tener que definir manualmente los valores de color en cada lugar donde los necesites. Puedes utilizar estos colores para establecer el color de fondo de un widget, el color del texto, el color de los botones y otros elementos de la interfaz de usuario.
 
+La clase Colors en Flutter incluye una amplia gama de colores predefinidos, como Colors.red, Colors.blue, Colors.green, etc. Estas constantes se pueden utilizar directamente en el código para establecer colores de manera conveniente.
+
 ### Referencias
 - [Colors Class](https://api.flutter.dev/flutter/material/Colors-class.html)
 
