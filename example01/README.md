@@ -1,6 +1,6 @@
 # example01
 
-A new Flutter project.
+A new Flutter project. A basic structure to introduce Flutter.
 
 ## Getting Started
 
