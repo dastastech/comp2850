@@ -1,4 +1,4 @@
-# example01
+# PROJECT: example01
 
 A new Flutter project. A basic structure to introduce Flutter.
 
