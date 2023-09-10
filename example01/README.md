@@ -2,7 +2,7 @@
 
 Estructura básica de un proyecto en Flutter.
 
-## Getting Started
+## Introducción
 
 Este proyecto es un punto de partida para una aplicación Flutter.
 
