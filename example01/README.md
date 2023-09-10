@@ -20,7 +20,7 @@ Los widgets en Flutter son inmutables, lo que significa que una vez que se crean
 
 Flutter proporciona una amplia variedad de widgets predefinidos que se pueden utilizar para construir la interfaz de usuario de una aplicación . Estos widgets van desde widgets básicos como Text y Image hasta widgets más complejos como ListView y GridView. Además, Flutter permite a los desarrolladores crear sus propios widgets personalizados para adaptarse a las necesidades específicas de su aplicación.
 
-##Un widget en Flutter es una clase que describe cómo se ve y se comporta un elemento de la interfaz de usuario en una aplicación Flutter . Los widgets son los bloques de construcción fundamentales de una aplicación Flutter y se utilizan para construir la interfaz de usuario de la aplicación.
+## Un widget en Flutter es una clase que describe cómo se ve y se comporta un elemento de la interfaz de usuario en una aplicación Flutter . Los widgets son los bloques de construcción fundamentales de una aplicación Flutter y se utilizan para construir la interfaz de usuario de la aplicación.
 
 ---
 
