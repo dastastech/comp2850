@@ -51,6 +51,15 @@ El widget AppBar en Flutter es un componente de interfaz de usuario que represen
 ### Referencias
 - [AppBar Class](https://api.flutter.dev/flutter/material/AppBar-class.html)
 
+---
 
+## Colors Class (property)
+
+La propiedad Colors en Flutter es una clase predefinida que contiene una amplia gama de colores predefinidos que se pueden utilizar en la interfaz de usuario de tu aplicación. Esta clase proporciona constantes estáticas para una variedad de colores comunes, como blanco, negro, rojo, azul, verde, etc.
+
+La propiedad Colors es útil porque te permite acceder fácilmente a colores predefinidos en lugar de tener que definir manualmente los valores de color en cada lugar donde los necesites. Puedes utilizar estos colores para establecer el color de fondo de un widget, el color del texto, el color de los botones y otros elementos de la interfaz de usuario.
+
+### Referencias
+- [Colors Class](https://api.flutter.dev/flutter/material/Colors-class.html)
 
 
