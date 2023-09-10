@@ -9,13 +9,39 @@ void main() {
           ),
           body: Column(
             children: <Widget>[
-              const Text('Hello World!!'),
+              const Text('Forma Larga'),
+              const Center(
+                child: Image(
+                  width: 150,
+                  height: 150,
+                  image: NetworkImage(
+                      'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg'),
+                ),
+              ),
+              const Center(
+                child: Image(
+                  width: 150,
+                  height: 150,
+                  image: AssetImage(
+                    'images/tiger.png', // Ver el archivo pubspec.yaml
+                  ),
+                ),
+              ),
+              const Text('Forma Corta'),
               Center(
                 child: Image.network(
                   'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg',
-                  width: 200,
-                  height: 200,
+                  width: 150,
+                  height: 150,
                   fit: BoxFit.cover,
+                ),
+              ),
+              Center(
+                child: Image.asset(
+                  'images/tiger.png', // Add image in asset section in pubspec.yaml.
+                  width: 150,
+                  height: 150,
+                  fit: BoxFit.scaleDown,
                 ),
               ),
             ],
