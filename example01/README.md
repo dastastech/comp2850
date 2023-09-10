@@ -17,3 +17,8 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Others references:
 - [Material Design from Google](https://m3.material.io)
+
+## What's Material?
+Material Design is a design system built and supported by Google designers and developers. Material.io includes in-depth UX guidance and UI component implementations for Android, Flutter, and the Web.
+
+The latest version, Material 3, enables personal, adaptive, and expressive experiences – from dynamic color and enhanced accessibility, to foundations for large screen layouts and design tokens.
