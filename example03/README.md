@@ -38,6 +38,8 @@ Es importante tener en cuenta que Column se expandirá para ocupar todo el espac
 ### Referencias
 - [Column Class](https://api.flutter.dev/flutter/widgets/Column-class.html)
 
+---
+
 ## Image Class
 
 El widget Image en Flutter es un componente que se utiliza para mostrar imágenes en una aplicación. Sirve para cargar y mostrar imágenes desde diferentes fuentes, como la red, el sistema de archivos local o recursos internos.
@@ -57,7 +59,7 @@ El widget Image en Flutter es un componente utilizado para mostrar imágenes en 
 
 ----
 
-#### BoxFit Property
+## BoxFit Property
 
 La propiedad BoxFit en Flutter es una enumeración que se utiliza para controlar cómo se ajusta una imagen dentro de su contenedor. Sirve para especificar cómo se debe escalar y recortar una imagen para que se ajuste correctamente al espacio disponible.
 
@@ -72,7 +74,7 @@ La enumeración BoxFit tiene varios valores posibles:
 
 Puedes utilizar la propiedad fit junto con el widget Image para controlar cómo se ajusta una imagen dentro de un contenedor en Flutter. Esto te permite lograr diferentes efectos visuales y adaptar la presentación de las imágenes según tus necesidades.
 
-#### Referencias
+### Referencias
 - [BoxFit enum](https://api.flutter.dev/flutter/painting/BoxFit.html)
 
 ---
