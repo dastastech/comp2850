@@ -1,4 +1,4 @@
-# PROJECT: example01
+# Example01
 
 Estructura básica de un proyecto en Flutter.
 
