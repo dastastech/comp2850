@@ -6,9 +6,6 @@ void main() {
       home: Center(
         child: Text(
           'My First Flutter Example',
-          style: TextStyle(
-            color: Colors.blue,
-          ),
         ),
       ),
     ),
