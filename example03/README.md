@@ -1,4 +1,4 @@
-# PROJECT: example03
+# Example 03
 
 Un nuevo proyecto en Flutter con la introducción del widget Image. Se incluye la modificación de configuración "pubspec.yaml" para incluir activos (assets).
 

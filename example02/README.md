@@ -1,4 +1,4 @@
-# PROJECT: example02
+# Example 02
 
 Un nuevo proyecto en Flutter con la introducción del widget Scaffold.
 
