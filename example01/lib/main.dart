@@ -4,7 +4,12 @@ void main() {
   runApp(
     const MaterialApp(
       home: Center(
-        child: Text('My First Flutter Example'),
+        child: Text(
+          'My First Flutter Example',
+          style: TextStyle(
+            color: Colors.blue,
+          ),
+        ),
       ),
     ),
   );
