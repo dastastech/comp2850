@@ -1,6 +1,6 @@
 # Example 06
 
-A new Flutter project include: ThemeData, Expanded, Container, BoxDecoration, BottomNavigationBar and BottomNavigationBarItem.
+A new Flutter project that include: ThemeData, Expanded, Container, BoxDecoration, BottomNavigationBar and BottomNavigationBarItem.
 
 ## ThemeData class
 
