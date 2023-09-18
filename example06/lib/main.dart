@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -50,6 +52,29 @@ void main() {
                     'Expanded and Container',
                   ),
                 ),
+              ),
+            ),
+            Expanded(
+              flex: 1,
+              child: Container(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                    colors: [
+                      Colors.deepPurple.shade900,
+                      Colors.deepPurple.shade50,
+                    ],
+                  ),
+                ),
+                child: const Center(
+                    child: Text(
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 24,
+                        ),
+                        'Last Text in Page')),
               ),
             ),
           ],
