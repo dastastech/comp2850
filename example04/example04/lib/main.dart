@@ -10,11 +10,28 @@ void main() {
           ),
         ),
         body: const Center(
-          child: Text('Hello World!'),
+          child: Column(
+            children: <Widget>[
+              Text(
+                'Hello world!!',
+                style: TextStyle(
+                  color: Colors.blue,
+                  fontSize: 32,
+                ),
+              ),
+              Icon(
+                Icons.favorite,
+                color: Colors.red,
+                size: 44,
+              ),
+            ],
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           child: const Icon(Icons.add),
-          onPressed: () {},
+          onPressed: () {
+            print('Clicked');
+          },
         ),
       ),
     ),
