@@ -6,9 +6,9 @@ Working with tabs is a common pattern in apps that follow the Material Design gu
 
 This recipe creates a tabbed example using the following steps;
 
-Create a TabController.
-Create the tabs.
-Create content for each ta
+- Create a TabController.
+- Create the tabs.
+- Create content for each ta
 
 ### References
 
