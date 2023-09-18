@@ -5,6 +5,7 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.green.shade900,
           title: const Text('My Third Flutter App'),
         ),
         body: Column(
