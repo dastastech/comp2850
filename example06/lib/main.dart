@@ -30,6 +30,12 @@ void main() {
                 child: Text('Bottom Navigation Bar'),
               ),
             ),
+            const Expanded(
+              flex: 1,
+              child: Center(
+                child: Text('Second Text in Page'),
+              ),
+            ),
             Expanded(
               flex: 2,
               child: Container(
@@ -38,6 +44,8 @@ void main() {
                   child: Text(
                     style: TextStyle(
                       color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 24,
                     ),
                     'Expanded and Container',
                   ),
