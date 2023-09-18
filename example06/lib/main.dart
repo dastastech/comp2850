@@ -72,7 +72,7 @@ void main() {
                         style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
-                          fontSize: 24,
+                          fontSize: 28,
                         ),
                         'Last Text in Page')),
               ),
