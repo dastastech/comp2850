@@ -9,10 +9,10 @@ void main() {
             'Example 4',
           ),
         ),
-        body: const Center(
+        body: Center(
           child: Column(
             children: <Widget>[
-              Text(
+              const Text(
                 'Hello world!!',
                 style: TextStyle(
                   color: Colors.blue,
@@ -20,9 +20,9 @@ void main() {
                 ),
               ),
               Icon(
-                Icons.favorite,
-                color: Colors.red,
-                size: 44,
+                Icons.settings,
+                color: Colors.orange.shade400,
+                size: 78,
               ),
             ],
           ),

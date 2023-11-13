@@ -13,16 +13,16 @@ void main() {
             const Text('Forma Larga'),
             const Center(
               child: Image(
-                width: 150,
-                height: 150,
+                width: 125,
+                height: 125,
                 image: NetworkImage(
                     'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg'),
               ),
             ),
             const Center(
               child: Image(
-                width: 150,
-                height: 150,
+                width: 125,
+                height: 125,
                 image: AssetImage(
                   'images/tiger.png', // Ver el archivo pubspec.yaml
                 ),
@@ -32,16 +32,16 @@ void main() {
             Center(
               child: Image.network(
                 'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg',
-                width: 150,
-                height: 150,
+                width: 125,
+                height: 125,
                 fit: BoxFit.cover,
               ),
             ),
             Center(
               child: Image.asset(
                 'images/tiger.png', // Add image in asset section in pubspec.yaml.
-                width: 150,
-                height: 150,
+                width: 125,
+                height: 125,
                 fit: BoxFit.scaleDown,
               ),
             ),

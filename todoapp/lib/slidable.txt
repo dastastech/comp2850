@@ -1,0 +1,10 @@
+endActionPane: ActionPane(
+    motion: const StretchMotion(),
+    children: [
+        SlidableAction(
+        onPressed: ((contest) {}),
+        backgroundColor: Colors.red,
+        icon: Icons.delete,
+        ),
+    ],
+    ),

@@ -5,12 +5,12 @@ void main() {
     MaterialApp(
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: Colors.green,
+          primarySwatch: Colors.pink,
         ),
       ),
       darkTheme: ThemeData.dark(),
       home: DefaultTabController(
-        initialIndex: 1,
+        initialIndex: 2,
         length: 3,
         child: Scaffold(
           appBar: AppBar(
@@ -22,7 +22,10 @@ void main() {
             bottom: const TabBar(
               tabs: <Widget>[
                 Tab(
-                  icon: Icon(Icons.cloud_outlined),
+                  child: Text('Backup',
+                      style: TextStyle(
+                        color: Colors.white,
+                      )),
                 ),
                 Tab(
                   icon: Icon(Icons.beach_access_sharp),
@@ -33,15 +36,16 @@ void main() {
               ],
             ),
           ),
-          body: const TabBarView(
+          body: TabBarView(
             children: <Widget>[
               Center(
-                child: Text("It's cloudy here"),
+                child: Image.network(
+                    "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg"),
               ),
-              Center(
+              const Center(
                 child: Text("It's rainy here"),
               ),
-              Center(
+              const Center(
                 child: Text("It's sunny here"),
               ),
             ],
