@@ -4,7 +4,7 @@ part 'transaction.g.dart';
 
 // Definición del modelo Transaction
 @HiveType(typeId: 0)
-class Transaction {
+class Transaction extends HiveObject {
   @HiveField(0)
   final int id;
   @HiveField(1)
@@ -14,8 +14,10 @@ class Transaction {
   @HiveField(3)
   final String transactionType;
   @HiveField(4)
-  final DateTime dateTime;
+  final DateTime dateCreated;
+  @HiveField(5)
+  final int accountId;
 
-  Transaction(
-      this.id, this.name, this.quantity, this.transactionType, this.dateTime);
+  Transaction(this.id, this.name, this.quantity, this.transactionType,
+      this.dateCreated, this.accountId);
 }

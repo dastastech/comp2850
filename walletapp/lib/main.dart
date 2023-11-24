@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:walletapp/models/account.dart';
+import 'package:walletapp/models/transaction.dart';
 
 import 'home.dart';
 
@@ -9,7 +10,9 @@ void main() async {
 
   await Hive.initFlutter();
   Hive.registerAdapter(AccountAdapter());
+  // Hive.registerAdapter(TransactionAdapter());
   await Hive.openBox('accountsBox');
+  // await Hive.openBox('transactionsBox');
 
   runApp(const MainApp());
 }

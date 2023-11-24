@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:intl/intl.dart';
 
 import './models/account.dart';
 import 'models/transaction.dart';
@@ -263,14 +264,16 @@ class _HomeState extends State<Home> {
                         if (_title.text.isNotEmpty) {
                           var nextItem = _accounts.values.length + 1;
 
-                          final List<Transaction> transactions = [
-                            Transaction(
-                                1,
-                                "Initial Balance",
-                                double.parse(_balance.text),
-                                "Debit",
-                                DateTime.now())
-                          ];
+                          final today = DateTime.now();
+
+                          List<Transaction> transactions = [];
+                          Transaction transaction = Transaction(
+                              1,
+                              "Initial Balance",
+                              double.parse(_balance.text),
+                              "Init",
+                              today,
+                              nextItem);
                           final newAccount = Account(
                               nextItem,
                               _title.text,
@@ -279,7 +282,12 @@ class _HomeState extends State<Home> {
                               0,
                               0,
                               transactions);
+
                           _accounts.put(nextItem, newAccount);
+
+                          // var createdAccount = _accounts.getAt(nextItem);
+                          // createdAccount.transactions.add(transaction);
+                          // createdAccount.save();
 
                           _title.clear();
                           _number.clear();

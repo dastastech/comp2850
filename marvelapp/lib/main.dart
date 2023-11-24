@@ -6,8 +6,8 @@ import 'package:crypto/crypto.dart';
 import 'square_tile.dart';
 
 Future<Map> fetchMarvelCharacters() async {
-  const publicKey = 'your-public-key';
-  const privateKey = 'your-private-key';
+  const publicKey = 'af56b384837fee0565170d9e1f29256b';
+  const privateKey = '969e361a2c5ad0c92d6c1c78d97ee3a76e0afc1e';
   final timestamp = DateTime.now().millisecondsSinceEpoch.toString();
   final hash =
       md5.convert(utf8.encode(timestamp + privateKey + publicKey)).toString();

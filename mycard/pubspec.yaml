@@ -1,0 +1,34 @@
+name: mycard
+description: A V Card App.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/avatar.jpg
+    - assets/images/avatar-2.jpg
+    - assets/images/qr-code.png
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: SourceCode
+      fonts:
+        - asset: fonts/SourceCodePro-VariableFont_wght.ttf
+
+users-material-design: true

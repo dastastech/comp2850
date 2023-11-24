@@ -5,7 +5,7 @@ part 'account.g.dart';
 
 // Definición del modelo Account
 @HiveType(typeId: 0)
-class Account {
+class Account extends HiveObject {
   @HiveField(0)
   final int id;
   @HiveField(1)
@@ -20,7 +20,7 @@ class Account {
   final double expenses;
 
   @HiveField(6)
-  final List<Transaction> transactions;
+  List<Transaction> transactions;
 
   Account(this.id, this.title, this.number, this.balance, this.incomes,
       this.expenses, this.transactions);
