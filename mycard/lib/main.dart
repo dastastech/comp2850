@@ -51,8 +51,8 @@ class MainApp extends StatelessWidget {
                 const SizedBox(
                   height: 20.0,
                 ),
-                const Image(
-                  image: AssetImage('/images/qr-code.png'),
+                Image.asset(
+                  '/images/qr-code.png',
                   width: 250.0,
                 ),
                 const SizedBox(
