@@ -2,7 +2,7 @@
 
 MyCard App is a Flutter app to present personal information. The intention is have an electronic bussiness or personal card.
 
-[![Preview](assets/images/mycard.png)]
+![MyCard App Preview](assets/images/mycard.png "MyCard App Preview")
 
 ## Special Widgets
 
