@@ -18,4 +18,4 @@ MyCard App is a Flutter app to present personal information. The intention is ha
 
 ## Needs
 
-- A QR Code image.
+- A QR Code image generator (https://qr.io).
