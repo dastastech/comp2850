@@ -1,10 +1,14 @@
-import 'package:bmicalculator/icon_content.dart';
-import 'package:bmicalculator/round_icon_button.dart';
+import 'package:bmicalculator/calculator_brain.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import 'reusable_card.dart';
-import 'constants.dart';
+import '/constants.dart';
+
+import '../components/reusable_card.dart';
+import '../components/bottom_button.dart';
+import '../components/icon_content.dart';
+import '../components/round_icon_button.dart';
+import 'results_page.dart';
 
 enum Gender { male, female, other }
 
@@ -19,14 +23,13 @@ class InputPage extends StatefulWidget {
 
 class _InputPageState extends State<InputPage> {
   Gender selectedGender = Gender.other;
-  int height = 81;
-  int weight = 100;
-  int age = 25;
+  int height = 71;
+  int weight = 160;
+  int age = 30;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ThemeData.dark().scaffoldBackgroundColor,
       appBar: AppBar(
         title: const Text('BMI Calculator'),
       ),
@@ -235,17 +238,22 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
-          GestureDetector(
+          BottomButton(
             onTap: () {
-              Navigator.pushNamed(context, '/bmiResultPage');
+              CalculatorBrain calc =
+                  CalculatorBrain(height: height, weight: weight);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ResultsPage(
+                    bmiResult: calc.calculateBMI(),
+                    resultText: calc.getResult(),
+                    interpretation: calc.getInterpretation(),
+                  ),
+                ),
+              );
             },
-            child: Container(
-              color: kBottomContainerColor,
-              margin: const EdgeInsets.only(top: 10.0),
-              width: double.infinity,
-              height: kBottomContainerHeight,
-              child: const Center(child: Text('CALCULATE')),
-            ),
+            buttonTitle: 'CALCULATE',
           ),
         ],
       ),
