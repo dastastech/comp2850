@@ -10,7 +10,7 @@ class ContentText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       color: Colors.white,
-      margin: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 40.0),
+      margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 40.0),
       child: ListTile(
         leading: Icon(
           icon,
