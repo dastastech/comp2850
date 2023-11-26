@@ -63,15 +63,18 @@ class MainApp extends StatelessWidget {
                   children: [
                     Expanded(
                       flex: 4,
-                      child: Image.asset(
-                        'images/qr-code.png',
+                      child: Padding(
+                        padding: const EdgeInsets.all(20.0),
+                        child: Image.asset(
+                          'images/qr-code.png',
+                        ),
                       ),
                     ),
                     Expanded(
                       child: Container(
                         margin: const EdgeInsets.only(top: 5.0),
                         child: Text(
-                          'QR Code',
+                          'Scan QR Code',
                           style: TextStyle(
                             fontSize: 15.0,
                             color: Colors.teal.shade200,
