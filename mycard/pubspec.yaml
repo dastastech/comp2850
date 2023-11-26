@@ -19,9 +19,8 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/avatar.jpg
-    - assets/images/avatar-2.jpg
-    - assets/images/qr-code.png
+    - images/avatar-2.jpg
+    - images/qr-code.png
 
   fonts:
     - family: Pacifico
