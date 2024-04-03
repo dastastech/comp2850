@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-
-import 'package:webview_flutter/webview_flutter.dart';
+import 'package:material_symbols_icons/symbols.dart';
+import 'package:recipes/pages/desserts.dart';
+import 'package:recipes/pages/dish.dart';
+import 'package:recipes/pages/drinks.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -12,10 +14,10 @@ class MainPage extends StatefulWidget {
 class _MainPage extends State<MainPage> {
   int indiceSeleccionado = 0;
 
-  final List<String> _pantallas = [
-    'https://www.inter.edu',
-    'https://www.arecibo.inter.edu',
-    'https://www.google.com',
+  final List<Widget> _pantallas = [
+    const Dish(),
+    const Desserts(),
+    const Drinks(),
   ];
 
   void cambiarPantalla(int indice) {
@@ -27,24 +29,22 @@ class _MainPage extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: WebView(
-        initialUrl: _pantallas[indiceSeleccionado],
-      ),
+      body: _pantallas[indiceSeleccionado],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: indiceSeleccionado,
         onTap: cambiarPantalla,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Inicio',
+            icon: Icon(Symbols.skillet),
+            label: 'Dishes',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.favorite),
-            label: 'Favoritos',
+            icon: Icon(Symbols.cookie),
+            label: 'Desserts',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            label: 'Configuración',
+            icon: Icon(Symbols.blender),
+            label: 'Drinks',
           ),
         ],
       ),
